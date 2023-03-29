@@ -73,8 +73,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: "",
+      name: "typescript",
+      icon: typescript,
     },
     {
       name: "React JS",
@@ -106,11 +106,11 @@ import {
     },
     {
       name: "figma",
-      icon: "",
+      icon: figma,
     },
     {
       name: "docker",
-      icon: "",
+      icon: docker,
     },
   ];
   
@@ -162,84 +162,94 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "Problem Solving (Basic) HackerRank",
+      name: "HackerRank",
       designation: "CFO",
       company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "3 Stars Problem solving badge",
+      name: "HackerRank",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "Winner of Construct week Unit 5",
+      name: "Masai",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "https://www.passionateinmarketing.com/wp-content/uploads/2021/10/Masai.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Royal Brothers-Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, book, and manage bike rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "chakra",
           color: "pink-text-gradient",
         },
+        {
+          name: "api",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: "https://i.postimg.cc/y69d8rV7/royal-Bros.jpg",
+      source_code_link: "https://github.com/saintlypioneer/RoyalBrothersReact",
+      deployed:"https://symphonious-cupcake-6a58b9.netlify.app/"
     },
     {
-      name: "Job IT",
+      name: "Spotify-Clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search any songs and listen as per their moods. Users can create their own playlists, listen to thousands of songs of different genres.",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "api",
+          color: "orange-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: "https://snipboard.io/aokAc2.jpg",
+      source_code_link: "https://github.com/ritikraj07/Project_Spotify.com",
+      deployed:"https://starlit-salmiakki-6e2eb0.netlify.app/html/"
     },
     {
-      name: "Trip Guide",
+      name: "Bewakoof.com-Clone",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive platform where user can buy fashion clothing accessories. It has thousands of brands with a wide range of variety.",
       tags: [
         {
-          name: "nextjs",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
@@ -247,8 +257,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: "https://i.postimg.cc/DyvPQGp4/bewakoof.jpg",
       source_code_link: "https://github.com/",
+      deployed:"https://cheery-klepon-becbe0.netlify.app/"
     },
   ];
   
